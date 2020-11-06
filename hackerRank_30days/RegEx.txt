@@ -1,0 +1,11 @@
+import re
+
+l=list()
+n=int(input())
+for i in range(n):
+    m=input().split()
+    email=m[1]
+    if re.search("@gmail.com",email):
+        l.append(m[0])
+l.sort()
+print(*l,sep="\n")
