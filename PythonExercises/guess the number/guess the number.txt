@@ -1,0 +1,15 @@
+# Guess the number game
+
+print("your are given 9 chances to guess the number")
+for i in range(1,10):
+    user=int(input("Enter the number: \n"))
+    if user==42:
+        print("Congrats!! You won the game in "+str(i)+" guesses")
+        break
+    elif user<42:
+        print("Try a bigger number")
+    elif user>42:
+        print("Try a smaller number")
+    print("You are left with "+str(9-i)+" chances")
+else:
+    print("game over")
