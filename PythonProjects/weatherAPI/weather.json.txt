@@ -1,0 +1,13 @@
+{"coord":{"lon":72.85,"lat":19.01},
+"weather":[{"id":711,"main":"Smoke","description":"smoke","icon":"50n"}],
+"base":"stations",
+"main":{"temp":299.15,"feels_like":296.06,"temp_min":299.15,"temp_max":299.15,"pressure":1012,"humidity":31},
+"visibility":3000,
+"wind":{"speed":3.6,"deg":60},
+"clouds":{"all":0},
+"dt":1605130339,
+"sys":{"type":1,"id":9052,"country":"IN","sunrise":1605143669,"sunset":1605184273},
+"timezone":19800,
+"id":1275339,
+"name":"Mumbai",
+"cod":200}
